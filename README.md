@@ -16,7 +16,7 @@ Ti-alloy 基于了 tidb-plugin-framewok。为 tidb 增加大量用户定制化�
 
    参考 prometheus 的发展经历，实现了 Scan 和 SelectionScan 两种 Scan 接口
 
-
+3. 相应功能已经添加测试
 
 
 
@@ -29,13 +29,13 @@ Ti-alloy 基于了 tidb-plugin-framewok。为 tidb 增加大量用户定制化�
    - [x] Join tikv tale
 2. Golang[low level]
    - [x] Insert
-   - [x] Scan
-   - [x] SelectionScan
+   - [x] Scan  <https://github.com/WPH95/tidb/pull/5>
+   - [x] SelectionScan <https://github.com/WPH95/tidb/pull/13>
    - [ ] optimization [TODO]
    - [ ] custom logic/physical Plan? [TODO]
    - [x] Create/Drop Table
 3. Example:
-   - [x] File[csv] Engine
+   - [x] File[csv] Engine 
    - [x] Elasticsearch Mock Engine
 4. Python[high level][TODO]
 
