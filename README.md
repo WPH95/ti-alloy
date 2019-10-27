@@ -9,7 +9,12 @@ Ti-alloy 基于了 tidb-plugin-framewok。为 tidb 增加大量用户定制化�
 当前版本已完成
 
 1. 和 mysql 接口相似的 UDF 定义，轻松为 tidb 添加 UDF
-2. FDW (Foreign Data Wrapper) 原型完成，并参考 prometheus 的发展经历，实现了 Scan 和 SelectionScan 两种 Scan 接口
+
+2. FDW (Foreign Data Wrapper) 原型完成 ，
+
+   支持读/写操作
+
+   参考 prometheus 的发展经历，实现了 Scan 和 SelectionScan 两种 Scan 接口
 
 
 
